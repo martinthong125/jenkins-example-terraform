@@ -3,6 +3,7 @@
 # based on https://tfswitch.warrensbox.com/Continuous-Integration/
 
 echo "Installing tfswitch locally"
+echo "$(pwd)"
 
 # Get the installer on to your machine
 /opt/homebrew/bin/wget -N -c https://raw.githubusercontent.com/warrensbox/terraform-switcher/release/install.sh
