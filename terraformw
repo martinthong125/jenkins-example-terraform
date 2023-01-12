@@ -22,4 +22,4 @@ export PATH=$CUSTOMBIN:$PATH
 
 $CUSTOMBIN/tfswitch -b $CUSTOMBIN/terraform
 
-terraform $*
+/usr/local/bin/terraform $*
